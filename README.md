@@ -36,7 +36,7 @@ copy /Y %SOURCE_PATH%icon.ico %OUT_PATH%icon.ico
 ```
 You must change, when necessary, the values of variables _IRONPYTHON_COMPILER_, _SOURCE_PATH_ and _OUT_PATH_.
 
-For make work the exe file you must include some assemblies in the exe folder. But don´t worry, all necesary files can be found in lasts [release](https://github.com/Borogum/PyClonKanoid/releases) of project.
+For make work the exe file you must include some assemblies in the exe folder. But don´t worry, all necessary files can be found in last [release](https://github.com/Borogum/PyClonKanoid/releases) of project.
 
 
 ## Controls
