@@ -1,7 +1,7 @@
 <Window Language="en-en" WindowStartupLocation="CenterScreen"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  Title="pykanoid" ResizeMode="CanMinimize" Loaded="loaded" PreviewKeyUp="key_up"
+  Title="PyClonKanoid" ResizeMode="CanMinimize" Loaded="loaded" PreviewKeyUp="key_up"
   KeyDown="key_down">
     <Canvas x:Name="Canvas" ></Canvas>
 </Window>
