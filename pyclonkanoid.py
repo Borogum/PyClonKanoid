@@ -167,7 +167,7 @@ class Ball(Box):
 
     def on_hit(self,other,edge):
         s=self.scalar(edge)
-        r=(2*random.random()-1)*(4*0.017) # +- 4 (1 Grad = 0.017 Rad)
+        r=(4*random.random()-1)*(2*0.017) # Some random behavior (1 Grad = 0.017 Rad)
         a=-2*math.acos(s)+r
         x=self.xdir*math.cos(a)-self.ydir*math.sin(a)
         y=self.xdir*math.sin(a)+self.ydir*math.cos(a)
@@ -284,9 +284,7 @@ class Gui(Window):
         self.objects.append(self.base)
         #BALL
         rx=2*random.random()-0.5
-        r=2*random.random()-1
-        r=r/abs(r)
-        ry=r*math.sqrt(1-pow(rx,2))
+        ry=math.sqrt(1-pow(rx,2))
         self.ball=Ball(self.configuration['ball_size'],self.configuration['ball_size'],
                self.canvas.ActualWidth/2,50,(rx,ry), self.configuration['ball_speed'])
         self.plot(self.ball)
