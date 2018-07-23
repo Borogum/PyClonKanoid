@@ -12,7 +12,7 @@ The objetive is kill my boredom.
 
 ## How to use it?
 
-You can run it directly with iron python command interpreter or you can compile the source code to generate an exe file. To compile source code you need use the iron python compiler. I create a bat file to realize compile task automatically.
+You can run it directly with iron python command interpreter or you can compile the source code to generate an exe file. To compile source code you need use the iron python compiler. I create a bat file to realize compile task automatically:
 
 ```
 @ECHO OFF
@@ -34,9 +34,7 @@ copy /Y %SOURCE_PATH%icon.ico %OUT_PATH%icon.ico
 /embed
 
 ```
-You must change, when necessary, the values of variables _IRONPYTHON_COMPILER_, _SOURCE_PATH_ and _OUT_PATH_.
-
-For make work the exe file you must include some assemblies in the exe folder. But don´t worry, all necessary files can be found in last [release](https://github.com/Borogum/PyClonKanoid/releases) of project.
+You must change, when necessary, the values of variables _IRONPYTHON_COMPILER_, _SOURCE_PATH_ and _OUT_PATH_. To make the exe file work you must include some assemblies in the exe's folder. But don´t worry, all necessary files can be found in last [release](https://github.com/Borogum/PyClonKanoid/releases) of project.
 
 
 ## Controls
