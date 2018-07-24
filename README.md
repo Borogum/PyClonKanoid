@@ -75,3 +75,7 @@ x@x@xx@@@x@x@x@@@x@@x
 ```
 
 Additionally, you can customize block distribution in section [blocks]. An x represents an empty space and @ represents a block. In previous example, the blocks shows a well-known message for all programmers.
+
+## TODO ( Maybe someday ... )
+
+* Make collisions more realistic.
