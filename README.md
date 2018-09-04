@@ -4,6 +4,8 @@
 
 PyClonKanoid is a **very simple** version of a classic videogame named [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid "Arkanoid Wiki") . PyClonKanoid was programmed using a Python implementation called [IronPython](http://ironpython.net/ "IronPython Website") in combination with Windows Presentation Foundation (WPF) technology.
 
+![Screenshot](https://github.com/Borogum/PyClonKanoid/blob/master/screenshot.png)
+
 
 ## What is the objetive of project?
 
